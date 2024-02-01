@@ -66,6 +66,8 @@ export default {
 <style scoped>
 #top-footer {
     background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 nav {
@@ -101,5 +103,9 @@ nav ul li a {
     text-decoration: none;
     color: gray;
     padding: 10px;
+}
+
+img {
+    height: 400px;
 }
 </style>

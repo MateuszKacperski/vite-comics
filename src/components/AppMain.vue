@@ -11,6 +11,6 @@ export default {
 <style scope>
 main {
     color: white;
-    min-height: 100px;
+    min-height: 150px;
 }
 </style>

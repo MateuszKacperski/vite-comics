@@ -23,7 +23,7 @@ export default {
 <style scoped>
 #bottom-footer {
     background-color: #303030;
-    min-height: 100px;
+    min-height: 150px;
 }
 
 button {
