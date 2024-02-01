@@ -43,7 +43,8 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
 }
 </style>
