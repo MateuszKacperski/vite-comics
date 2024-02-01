@@ -40,10 +40,19 @@ nav ul {
 
 }
 
+nav ul li {
+    padding: 65px 0;
+}
+
 nav ul li a {
     font-size: 1rem;
-    padding: 60px 10px;
+    padding: 10px;
     text-decoration: none;
     color: black;
+}
+
+nav ul li a:hover {
+    color: #0282f9;
+    border-bottom: #0282f9 solid 2px;
 }
 </style>
