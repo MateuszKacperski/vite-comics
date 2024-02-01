@@ -27,7 +27,7 @@ export default {
         </div>
     </header>
 </template>
-<style scope>
+<style scoped>
 header {
     min-height: 150px;
     background-color: white;
