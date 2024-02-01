@@ -20,7 +20,7 @@ export default {
         </div>
     </section>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 #bottom-footer {
     background-color: #303030;
     min-height: 150px;
@@ -37,13 +37,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.right img {
-    padding: 10px;
-}
+    h3 {
+        color: #0282f9;
+    }
 
-h3 {
-    color: #0282f9;
+    img {
+        padding: 10px;
+    }
 }
 </style>

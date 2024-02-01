@@ -72,31 +72,32 @@ export default {
         </div>
     </header>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 header {
     min-height: 150px;
     background-color: white;
-}
 
-nav ul {
-    display: flex;
-    list-style: none;
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
 
-}
+            li {
+                padding: 65px 0;
 
-nav ul li {
-    padding: 65px 0;
-}
+                a {
+                    font-size: 1rem;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: black;
 
-nav ul li a {
-    font-size: 1rem;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-nav ul li a:hover {
-    color: #0282f9;
-    border-bottom: #0282f9 solid 2px;
+                    &:hover {
+                        color: #0282f9;
+                        border-bottom: #0282f9 solid 2px;
+                    }
+                }
+            }
+        }
+    }
 }
 </style>

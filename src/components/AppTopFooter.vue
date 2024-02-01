@@ -60,7 +60,7 @@ export default {
         </div>
     </section>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 #top-footer {
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
@@ -69,38 +69,39 @@ export default {
 
 nav {
     width: 50%;
+
+    .nav-row {
+        display: flex;
+        margin: 0 auto;
+
+        .nav-col {
+            flex-basis: calc(100% / 3);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            h4 {
+                color: white;
+                margin: 10px;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+
+                li a {
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: gray;
+                    padding: 10px;
+                }
+            }
+        }
+    }
 }
 
-.nav-row {
-    display: flex;
-    margin: 0 auto;
-}
 
-.nav-col {
-    flex-basis: calc(100% / 3);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-h4 {
-    color: white;
-    margin: 10px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-
-}
-
-nav ul li a {
-    font-size: 12px;
-    text-decoration: none;
-    color: gray;
-    padding: 10px;
-}
 
 img {
     height: 400px;
