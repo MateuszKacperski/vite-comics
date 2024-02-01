@@ -12,7 +12,7 @@ export default {
             </figure>
             <nav>
                 <ul>
-                    <li><a href="#">CHARACTERS</a></li>
+                    <li v-for="element in elements" :key="element.text"><a href="#">{{ element.text }}</a></li>
                     <li><a href="#">COMICS</a></li>
                     <li><a href="#">MOVIES</a></li>
                     <li><a href="#">TV</a></li>
