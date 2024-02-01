@@ -1,9 +1,11 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 export default {
   name: 'Dc-comics',
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 
@@ -11,6 +13,7 @@ export default {
 
 <template>
   <AppHeader />
+  <AppMain />
 </template>
 
 <style>
@@ -30,5 +33,14 @@ img {
 body {
   max-height: 100vh;
   background-color: black;
+}
+
+/* Utils */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>
