@@ -1,11 +1,34 @@
 <script>
-
+import AppHeader from './components/AppHeader.vue'
 export default {
-  name: 'Dc-comics'
+  name: 'Dc-comics',
+  components: {
+    AppHeader
+  }
 }
 
 </script>
 
-<template></template>
+<template>
+  <AppHeader />
+</template>
 
-<style></style>
+<style>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  max-height: 100vh;
+  background-color: black;
+}
+</style>
