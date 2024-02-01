@@ -1,7 +1,60 @@
 <script>
 export default {
     name: 'AppHeader',
-
+    data: () => ({
+        elements: [
+            {
+                text: 'Characters',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Comics',
+                url: '#',
+                current: true,
+            },
+            {
+                text: 'Movies',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'TV',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Games',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Collectibles',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Videos',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Fans',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'News',
+                url: '#',
+                current: false,
+            },
+            {
+                text: 'Shop',
+                url: '#',
+                current: false,
+            },
+        ],
+    }),
 }
 </script>
 <template>
@@ -14,15 +67,6 @@ export default {
             <nav>
                 <ul>
                     <li v-for="element in elements" :key="element.text"><a href="#">{{ element.text }}</a></li>
-                    <li><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLECTIONABLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
         </div>
