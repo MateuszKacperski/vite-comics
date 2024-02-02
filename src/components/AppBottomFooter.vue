@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 #bottom-footer {
     background-color: #303030;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 button {
